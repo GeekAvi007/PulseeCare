@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark light;
+  color: rgba(137, 50, 50, 0.87);
+  background-color: #121212;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #dfecf4;
+  color: #573d3d;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+a {
+  font-weight: 500;
+  color: #9c27b0;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #e91e63;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.8em 1.6em;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #4caf50;
+  transform: translateY(-2px);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px solid #4caf50;
+}
